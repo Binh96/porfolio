@@ -1,0 +1,76 @@
+@import '../../settings.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+}
+
+html,
+body,
+v-app,
+a {
+  background-color: $bg-main-color;
+  font-family: $font;
+  text-decoration: none;
+  color: $text-main-color;
+
+  .v-application {
+    background: $bg-main-color;
+  }
+}
+
+// Padding
+.pd-xy-0 {
+  padding: 0;
+}
+
+.pd-xy-10 {
+  padding: 10px;
+}
+
+.pd-xy-20 {
+  padding: 20px !important;
+}
+
+.pd-x-10 {
+  padding: 0px 10px;
+}
+
+.pd-x-20 {
+  padding: 0px 20px;
+}
+
+.pd-y-10 {
+  padding: 10px 0px;
+}
+
+.pd-y-20 {
+  padding: 0px 20px;
+}
+
+// Margin
+.mg-xy-10 {
+  margin: 10px;
+}
+
+.mg-xy-20 {
+  margin: 20px;
+}
+
+.mg-x-10 {
+  margin: 0px 10px;
+}
+
+.mg-x-20 {
+  margin: 0px 20px;
+}
+
+.mg-y-10 {
+  margin: 10px 0px;
+}
+
+.mg-y-20 {
+  margin: 0px 20px;
+}

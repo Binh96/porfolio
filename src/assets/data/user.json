@@ -1,0 +1,11 @@
+{
+  "author": "BinhPhan",
+  "profesor": "Web Developer",
+  "description": "",
+  "navigate": [
+    { "name": "About", "dir": "/about" },
+    { "name": "Experience", "dir": "/experience" },
+    { "name": "Project", "dir": "/project" },
+    { "name": "Contact", "dir": "/contact" }
+  ]
+}
