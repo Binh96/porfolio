@@ -1,6 +1,15 @@
 <template>
   <div class="button-container">
-    <v-btn class="btn" @submit="handleSubmit"> {{ content }}</v-btn>
+    <v-btn
+      :disabled="disabled"
+      class="btn"
+      @click="handleSubmit"
+      :style="{
+        transition: isHovered ? 'color 0.2s ease-in' : 'none !important',
+      }"
+    >
+      {{ content }}
+    </v-btn>
   </div>
 </template>
 <script lang="ts">
@@ -15,11 +24,18 @@ export default {
       type: Function,
       default: () => {},
     },
+    isHovered: {
+      type: Boolean,
+      default: false,
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
   },
   emits: ["submit"],
   setup(props, { emit }) {
     const handleSubmit = () => {
-      console.log(">>>>");
       emit("submit");
     };
 
@@ -30,8 +46,7 @@ export default {
 };
 </script>
 <style scoped lang="scss">
-@import url("../../../styles/scss/common/base.scss");
-@import url("../../../styles/settings.scss");
+@import "../../../styles/scss/common/base.scss";
 
 .btn {
   background-color: transparent !important;
@@ -46,6 +61,7 @@ export default {
 
   &:hover {
     background-color: transparent !important;
+    color: $text-second-color !important;
   }
 }
 

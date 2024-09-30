@@ -1,12 +1,14 @@
 <template>
-  <div class="header-container d-flex w-100 align-center justify-space-between">
+  <div
+    class="header-container d-flex w-100 align-center justify-space-between px-6 py-2"
+  >
     <div class="logo">
-      <ButtonComponent :content="logo" />
+      <a href="/" class="logo-title px-8">{{ logo }}</a>
     </div>
     <div class="nav-container">
       <ul class="nav-list d-flex align-center">
         <li v-for="item in navItems" :key="item?.name" class="nav-list-item">
-          <ButtonComponent :content="item?.name" />
+          <ButtonComponent :content="item?.name" :isHovered="true" />
         </li>
       </ul>
     </div>
@@ -49,6 +51,12 @@ export default {
 <style scoped lang="scss">
 @import url("../../../styles/scss/common/base.scss");
 @import "../../../styles/settings.scss";
+
+.logo-title {
+  font-size: 20px;
+  color: $text-main-color;
+  text-decoration: none;
+}
 
 .nav-list {
   list-style: none;

@@ -6,10 +6,10 @@
 
 // https://vuetifyjs.com/features/sass-variables/`
 @use "vuetify/settings" with (
-  $color-pack: false,
+  $color-pack: false
 );
 
-$font: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+$font: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 
 //  -- Back ground color --
 $bg-main-color: rgb(1 23 42);
@@ -17,4 +17,4 @@ $bg-main-color: rgb(1 23 42);
 // -- Text color --
 $text-main-color: RGBA(248, 248, 255, 1);
 $text-primary-color: #ffffff;
-
+$text-second-color: #8892b0;
