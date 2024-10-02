@@ -35,7 +35,8 @@ export default {
   },
   emits: ["submit"],
   setup(props, { emit }) {
-    const handleSubmit = () => {
+    const handleSubmit = (event) => {
+      console.log(event);
       emit("submit");
     };
 

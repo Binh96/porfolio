@@ -8,7 +8,11 @@
     <div class="nav-container">
       <ul class="nav-list d-flex align-center">
         <li v-for="item in navItems" :key="item?.name" class="nav-list-item">
-          <ButtonComponent :content="item?.name" :isHovered="true" />
+          <ButtonComponent
+            :content="item?.name"
+            :isHovered="true"
+            @onSubmit="openComponent(item.nameComponent)"
+          />
         </li>
       </ul>
     </div>
@@ -26,7 +30,8 @@ export default {
   components: {
     ButtonComponent,
   },
-  setup() {
+  emits: ["open"],
+  setup(props, { emit }) {
     const logo = ref(LOGO_TITLE);
     const navItems = ref<Array<NavItemProps>>(
       (() => {
@@ -35,13 +40,20 @@ export default {
             name: d.name,
             link: d.dir,
             disable: false,
+            nameComponent: d.nameComponent,
           } as NavItemProps;
         });
         return navItemFormat;
       })()
     );
 
+    const openComponent = (name: string) => {
+      console.log(name);
+      emit("open", name); // Emit the event properly
+    };
+
     return {
+      openComponent,
       navItems,
       logo,
     };
