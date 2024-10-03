@@ -1,9 +1,9 @@
 <template>
   <div
-    class="header-container d-flex w-100 align-center justify-space-between px-6 py-2"
+    class="header-container d-flex w-100 align-center justify-space-between py-2"
   >
     <div class="logo">
-      <a href="/" class="logo-title px-8">{{ logo }}</a>
+      <a href="/" class="logo-title">{{ logo }}</a>
     </div>
     <div class="nav-container">
       <ul class="nav-list d-flex align-center">
@@ -11,7 +11,7 @@
           <ButtonComponent
             :content="item?.name"
             :isHovered="true"
-            @onSubmit="openComponent(item.nameComponent)"
+            @submit="openComponent(item.nameComponent)"
           />
         </li>
       </ul>
@@ -48,7 +48,6 @@ export default {
     );
 
     const openComponent = (name: string) => {
-      console.log(name);
       emit("open", name); // Emit the event properly
     };
 
@@ -58,6 +57,7 @@ export default {
       logo,
     };
   },
+  methods: {},
 };
 </script>
 <style scoped lang="scss">

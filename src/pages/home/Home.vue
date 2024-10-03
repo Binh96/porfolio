@@ -1,11 +1,9 @@
 <template>
   <div class="home-container">
-    <HeaderComponent @open="openComponent('about-component')" />
-    <div v-if="currentComponent == HomeSettingComponent.ABOUT_COMPONENT">
-      <AboutComponent />
-    </div>
-    <!-- <p v-if="isAbout">About me</p>
-    <p v-if="isProject">Project</p> -->
+    <v-container class="pt-0">
+      <HeaderComponent @open="currentComponent = $event" />
+    </v-container>
+    <component :is="currentComponent"></component>
   </div>
 </template>
 <script lang="ts">
