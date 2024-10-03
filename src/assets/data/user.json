@@ -3,9 +3,21 @@
   "profesor": "Web Developer",
   "description": "",
   "navigate": [
-    { "name": "About", "dir": "/about" },
-    { "name": "Experience", "dir": "/experience" },
-    { "name": "Project", "dir": "/project" },
-    { "name": "Contact", "dir": "/contact" }
+    { "name": "About", "dir": "/about", "nameComponent": "AboutComponent" },
+    {
+      "name": "Experience",
+      "dir": "/experience",
+      "nameComponent": "ExpericenComponent"
+    },
+    {
+      "name": "Project",
+      "dir": "/project",
+      "nameComponent": "ProjectComponent"
+    },
+    {
+      "name": "Contact",
+      "dir": "/contact",
+      "nameComponent": "ContactComponent"
+    }
   ]
 }
