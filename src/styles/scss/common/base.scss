@@ -1,10 +1,11 @@
-@import '../../settings.scss';
+@import "../../settings.scss";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: $font;
+  // height: 100%;
 }
 
 html,
@@ -73,4 +74,15 @@ a {
 
 .mg-y-20 {
   margin: 0px 20px;
+}
+
+// circle
+.circle {
+  border-radius: 50%;
+  background-color: $bg-main-color;
+}
+
+.circle-large {
+  width: 400px;
+  height: 400px;
 }

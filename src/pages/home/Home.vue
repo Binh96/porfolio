@@ -1,9 +1,11 @@
 <template>
   <div class="home-container">
-    <v-container class="pt-0">
-      <HeaderComponent @open="currentComponent = $event" />
-    </v-container>
-    <component :is="currentComponent"></component>
+    <header class="header">
+      <v-container class="pt-0">
+        <HeaderComponent @open="currentComponent = $event" />
+      </v-container>
+    </header>
+    <component class="component-container" :is="currentComponent"></component>
   </div>
 </template>
 <script lang="ts">
@@ -17,7 +19,7 @@ export default {
     AboutComponent,
   },
   setup() {
-    const currentComponent = ref("");
+    const currentComponent = ref(HomeSettingComponent.ABOUT_COMPONENT);
 
     return {
       currentComponent,
@@ -48,3 +50,21 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+.home-container {
+  overflow: hidden;
+  height: 100%;
+
+  .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+  }
+
+  .component-container {
+    // -top: 68px;
+  }
+}
+</style>
