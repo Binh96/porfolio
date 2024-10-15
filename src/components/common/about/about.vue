@@ -47,9 +47,9 @@ export default {
 
   .about-header {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 35%;
-    transform: translate(-30%, -50%);
+    transform: translate(-20%, -35%);
     color: $text-main-color;
     width: 450px;
   }
