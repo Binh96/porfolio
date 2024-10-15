@@ -1,4 +1,4 @@
-@import '../../settings.scss';
+@import "../../settings.scss";
 
 * {
   margin: 0;
@@ -73,4 +73,15 @@ a {
 
 .mg-y-20 {
   margin: 0px 20px;
+}
+
+// circle
+.circle {
+  border-radius: 50%;
+  background-color: $bg-main-color;
+}
+
+.circle-large {
+  width: 400px;
+  height: 400px;
 }

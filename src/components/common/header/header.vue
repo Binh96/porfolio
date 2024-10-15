@@ -64,17 +64,26 @@ export default {
 @import url("../../../styles/scss/common/base.scss");
 @import "../../../styles/settings.scss";
 
-.logo-title {
-  font-size: 20px;
-  color: $text-main-color;
-  text-decoration: none;
-}
+.header-container {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
 
-.nav-list {
-  list-style: none;
-
-  .nav-list-item {
+  .logo-title {
+    font-size: 20px;
     color: $text-main-color;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .nav-list {
+    list-style: none;
+
+    .nav-list-item {
+      color: $text-main-color;
+    }
   }
 }
 </style>
