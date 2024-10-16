@@ -7,7 +7,7 @@
     {
       "name": "Experience",
       "dir": "/experience",
-      "nameComponent": "ExpericenComponent"
+      "nameComponent": "ExperienceComponent"
     },
     {
       "name": "Project",
