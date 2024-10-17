@@ -13,10 +13,12 @@ import { ref } from "vue";
 import HeaderComponent from "../../components/common/header/header.vue";
 import AboutComponent from "../../components/common/about/about.vue";
 import { HomeSettingComponent } from "./home.i";
+import ExperienceComponent from "../../components/common/experience/experience.vue";
 export default {
   components: {
     HeaderComponent,
     AboutComponent,
+    ExperienceComponent,
   },
   setup() {
     const currentComponent = ref(HomeSettingComponent.ABOUT_COMPONENT);

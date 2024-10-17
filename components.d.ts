@@ -10,6 +10,7 @@ declare module 'vue' {
     About: typeof import('./src/components/common/about/about.vue')['default']
     Button: typeof import('./src/components/common/button/button.vue')['default']
     Content: typeof import('./src/components/content/Content.vue')['default']
+    Experience: typeof import('./src/components/common/experience/experience.vue')['default']
     Header: typeof import('./src/components/common/header/header.vue')['default']
     Layout: typeof import('./src/components/layout/Layout.vue')['default']
     MainImage: typeof import('./src/components/main-image/MainImage.vue')['default']
