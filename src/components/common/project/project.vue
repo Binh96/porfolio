@@ -5,262 +5,24 @@
         <h3>What I've Build</h3>
       </div>
       <div class="project-body pt-16">
-        <!-- <ul class="project-list">
-          <v-row class="d-flex justify-space-between">
-            <li class="project-item pb-7">
-              <div class="item-container">
-                <v-card class="mx-auto" max-width="344">
-                  <v-img
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-                    cover
-                  ></v-img>
-
-                  <v-card-title> Top western road trips </v-card-title>
-
-                  <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
-                  <v-card-actions>
-                    <v-btn color="orange-lighten-2" text="Explore"></v-btn>
-
-                    <v-spacer></v-spacer>
-
-                    <v-btn
-                      :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-                      @click="show = !show"
-                    ></v-btn>
-                  </v-card-actions>
-
-                  <v-expand-transition>
-                    <div v-show="show">
-                      <v-divider></v-divider>
-
-                      <v-card-text>
-                        I'm a thing. But, like most politicians, he promised
-                        more than he could deliver. You won't have time for
-                        sleeping, soldier, not with all the bed making you'll be
-                        doing. Then we'll go with that data file! Hey, you add a
-                        one and two zeros to that or we walk! You're going to do
-                        his laundry? I've got to find a way to escape.
-                      </v-card-text>
-                    </div>
-                  </v-expand-transition>
-                </v-card>
-              </div>
-            </li>
-            <li class="project-item pb-7">
-              <div class="item-container">
-                <v-card class="mx-auto" max-width="344">
-                  <v-img
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-                    cover
-                  ></v-img>
-
-                  <v-card-title> Top western road trips </v-card-title>
-
-                  <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
-                  <v-card-actions>
-                    <v-btn color="orange-lighten-2" text="Explore"></v-btn>
-
-                    <v-spacer></v-spacer>
-
-                    <v-btn
-                      :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-                      @click="show = !show"
-                    ></v-btn>
-                  </v-card-actions>
-
-                  <v-expand-transition>
-                    <div v-show="show">
-                      <v-divider></v-divider>
-
-                      <v-card-text>
-                        I'm a thing. But, like most politicians, he promised
-                        more than he could deliver. You won't have time for
-                        sleeping, soldier, not with all the bed making you'll be
-                        doing. Then we'll go with that data file! Hey, you add a
-                        one and two zeros to that or we walk! You're going to do
-                        his laundry? I've got to find a way to escape.
-                      </v-card-text>
-                    </div>
-                  </v-expand-transition>
-                </v-card>
-              </div>
-            </li>
-            <li class="project-item pb-7">
-              <div class="item-container">
-                <v-card class="mx-auto" max-width="344">
-                  <v-img
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-                    cover
-                  ></v-img>
-
-                  <v-card-title> Top western road trips </v-card-title>
-
-                  <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
-                  <v-card-actions>
-                    <v-btn color="orange-lighten-2" text="Explore"></v-btn>
-
-                    <v-spacer></v-spacer>
-
-                    <v-btn
-                      :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-                      @click="show = !show"
-                    ></v-btn>
-                  </v-card-actions>
-
-                  <v-expand-transition>
-                    <div v-show="show">
-                      <v-divider></v-divider>
-
-                      <v-card-text>
-                        I'm a thing. But, like most politicians, he promised
-                        more than he could deliver. You won't have time for
-                        sleeping, soldier, not with all the bed making you'll be
-                        doing. Then we'll go with that data file! Hey, you add a
-                        one and two zeros to that or we walk! You're going to do
-                        his laundry? I've got to find a way to escape.
-                      </v-card-text>
-                    </div>
-                  </v-expand-transition>
-                </v-card>
-              </div>
-            </li>
-            <li class="project-item pb-7">
-              <div class="item-container">
-                <v-card class="mx-auto" max-width="344">
-                  <v-img
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-                    cover
-                  ></v-img>
-
-                  <v-card-title> Top western road trips </v-card-title>
-
-                  <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
-                  <v-card-actions>
-                    <v-btn color="orange-lighten-2" text="Explore"></v-btn>
-
-                    <v-spacer></v-spacer>
-
-                    <v-btn
-                      :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-                      @click="show = !show"
-                    ></v-btn>
-                  </v-card-actions>
-
-                  <v-expand-transition>
-                    <div v-show="show">
-                      <v-divider></v-divider>
-
-                      <v-card-text>
-                        I'm a thing. But, like most politicians, he promised
-                        more than he could deliver. You won't have time for
-                        sleeping, soldier, not with all the bed making you'll be
-                        doing. Then we'll go with that data file! Hey, you add a
-                        one and two zeros to that or we walk! You're going to do
-                        his laundry? I've got to find a way to escape.
-                      </v-card-text>
-                    </div>
-                  </v-expand-transition>
-                </v-card>
-              </div>
-            </li>
-            <li class="project-item pb-7">
-              <div class="item-container">
-                <v-card class="mx-auto" max-width="344">
-                  <v-img
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-                    cover
-                  ></v-img>
-
-                  <v-card-title> Top western road trips </v-card-title>
-
-                  <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
-                  <v-card-actions>
-                    <v-btn color="orange-lighten-2" text="Explore"></v-btn>
-
-                    <v-spacer></v-spacer>
-
-                    <v-btn
-                      :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-                      @click="show = !show"
-                    ></v-btn>
-                  </v-card-actions>
-
-                  <v-expand-transition>
-                    <div v-show="show">
-                      <v-divider></v-divider>
-
-                      <v-card-text>
-                        I'm a thing. But, like most politicians, he promised
-                        more than he could deliver. You won't have time for
-                        sleeping, soldier, not with all the bed making you'll be
-                        doing. Then we'll go with that data file! Hey, you add a
-                        one and two zeros to that or we walk! You're going to do
-                        his laundry? I've got to find a way to escape.
-                      </v-card-text>
-                    </div>
-                  </v-expand-transition>
-                </v-card>
-              </div>
-            </li>
-            <li class="project-item pb-7">
-              <div class="item-container">
-                <v-card class="mx-auto" max-width="344">
-                  <v-img
-                    height="200px"
-                    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-                    cover
-                  ></v-img>
-
-                  <v-card-title> Top western road trips </v-card-title>
-
-                  <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
-
-                  <v-card-actions>
-                    <v-btn color="orange-lighten-2" text="Explore"></v-btn>
-
-                    <v-spacer></v-spacer>
-
-                    <v-btn
-                      :icon="show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-                      @click="show = !show"
-                    ></v-btn>
-                  </v-card-actions>
-
-                  <v-expand-transition>
-                    <div v-show="show">
-                      <v-divider></v-divider>
-
-                      <v-card-text>
-                        I'm a thing. But, like most politicians, he promised
-                        more than he could deliver. You won't have time for
-                        sleeping, soldier, not with all the bed making you'll be
-                        doing. Then we'll go with that data file! Hey, you add a
-                        one and two zeros to that or we walk! You're going to do
-                        his laundry? I've got to find a way to escape.
-                      </v-card-text>
-                    </div>
-                  </v-expand-transition>
-                </v-card>
-              </div>
-            </li>
-          </v-row>
-        </ul> -->
-        <carousel :per-page="1" :autoplay="3000" :autoplay-time="3000">
-          <slide v-for="item in items" :key="item.id">
-            <img :src="item.image" alt="Image" />
-            <h3>{{ item.title }}</h3>
-          </slide>
-        </carousel>
+        <Carousel
+          :itemsToShow="1"
+          :itemsToScroll="1"
+          :wrapAround="true"
+          :autoplay="3000"
+          :pauseAutoplayOnHover="true"
+          :snapAlign="'center'"
+          :mouseDrag="true"
+          :touchDrag="true"
+        >
+          <Slide
+            v-for="(item, index) in items"
+            :key="index"
+            :class="{ active: index === currentIndex }"
+          >
+            <img :src="item.image" alt="" />
+          </Slide>
+        </Carousel>
       </div>
     </div>
   </div>
@@ -268,6 +30,10 @@
 <script lang="ts">
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide } from "vue3-carousel";
+import imgOne from "@/assets/img/temp1.jpg";
+import imgTwo from "@/assets/img/temp2.jpg";
+import imgThree from "@/assets/img/temp3.jpg";
+import { ref } from "vue";
 
 export default {
   name: "ProjectComponent",
@@ -276,22 +42,24 @@ export default {
     Slide,
   },
   data: () => {
+    const currentIndex = ref(0);
     return {
+      currentIndex,
       items: [
         {
           id: 1,
           title: "Slide 1",
-          image: "../../../assets/img/temp1.jpg",
+          image: imgOne,
         },
         {
           id: 2,
           title: "Slide 2",
-          image: "../../../assets/img/temp2.jpg",
+          image: imgTwo,
         },
         {
           id: 3,
           title: "Slide 3",
-          image: "../../../assets/img/temp3.jpg",
+          image: imgThree,
         },
       ],
     };
@@ -315,6 +83,22 @@ export default {
     .project-header {
       color: $text-main-color;
       font-size: 24px;
+    }
+
+    .project-body {
+      img {
+        width: 100%;
+        height: 420px;
+      }
+
+      .carousel .slide {
+        opacity: 0.5; /* Đặt độ mờ cho tất cả các slide */
+        transition: opacity 0.3s ease; /* Hiệu ứng chuyển tiếp */
+      }
+
+      .carousel .slide.active {
+        opacity: 1; /* Đặt độ mờ cho slide chính */
+      }
     }
   }
 }

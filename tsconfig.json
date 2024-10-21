@@ -20,7 +20,7 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  "include": ["./src/typed-router.d.ts"],
+  "include": ["./src/typed-router.d.ts", "src/**/*", "src/types/**/*"],
   "exclude": ["dist", "node_modules", "cypress"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
